@@ -111,3 +111,5 @@ def custom_query(request: CustomQueryRequest):
         "intent": "stay updated" if freshness == "high" else "general interest",
         "media_types": media_types,
         "freshness": freshness
+        }
+        """
