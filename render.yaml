@@ -1,7 +1,6 @@
 services:
   - type: web
     name: scroll-focus-api
-    runtime: python
-    buildCommand: ""
-    startCommand: uvicorn scroll_focus_api:app --host 0.0.0.0 --port 10000
-    envVars: []
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn scroll_focus_api:app --host 0.0.0.0 --port 10000"
