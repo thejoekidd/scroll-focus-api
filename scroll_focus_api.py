@@ -111,11 +111,3 @@ def custom_query(request: CustomQueryRequest):
         "intent": "stay updated" if freshness == "high" else "general interest",
         "media_types": media_types,
         "freshness": freshness
-    }
-"""
-
-# Save to file
-with open(stub_api_path, "w") as f:
-    f.write(stub_api_code)
-
-stub_api_path
