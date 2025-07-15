@@ -1,4 +1,4 @@
-stub_api_path = "/mnt/data/scroll_focus_api_stubbed.py"
+stub_api_path = "/mnt/data/scroll_focus_api.py"
 
 stub_api_code = """
 from fastapi import FastAPI, HTTPException
